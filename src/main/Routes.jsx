@@ -7,9 +7,9 @@ import About from '../about/About'
 export default props => (
     <HashRouter>
         <div>
-            <Route path='/todo' component={Todo} />
+            <Route path='/todos' component={Todo} />
             <Route path='/about' component={About} />
-            <Redirect from='*' to='/todo' />
+            <Redirect from='*' to='/todos' />
         </div>
     </HashRouter>
 )
